@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stocki Apps</title>
+  <meta name="description" content="Reusable support, privacy, marketing, and legal pages for apps published by Stocki.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-brand" href="./">
+          Stocki Apps
+          <small>Support, privacy, and product pages</small>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="./apps/dartscorer/">Just a Darts Scorer</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <div class="eyebrow">Publisher site for current and future apps</div>
+          <h1>Clear app pages without the usual clutter.</h1>
+          <p class="lead">
+            This site is a reusable GitHub Pages hub for app marketing, support, privacy policies, and legal information.
+            Each app lives in its own folder so new products can be added without rebuilding the structure.
+          </p>
+          <div class="action-row">
+            <a class="button button-primary" href="./apps/dartscorer/">Open Just a Darts Scorer</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid grid-2">
+          <article class="card">
+            <h2>Available Apps</h2>
+            <p>Each app keeps its own support, privacy, and legal pages under a stable URL pattern.</p>
+            <div class="stack-card">
+              <div class="app-card-title">
+                <h3>Just a Darts Scorer</h3>
+                <span>iOS</span>
+              </div>
+              <p>
+                A focused darts scoring app with x01, Cricket, practice modes, stats, tournaments,
+                local multiplayer, and shareable match summaries.
+              </p>
+              <ul class="tag-list">
+                <li>Ad-free</li>
+                <li>One-time purchase</li>
+                <li>Local multiplayer</li>
+                <li>Tournaments</li>
+              </ul>
+              <div class="action-row">
+                <a class="button button-primary" href="./apps/dartscorer/">Marketing page</a>
+                <a class="button button-secondary" href="./apps/dartscorer/support/">Support</a>
+                <a class="button button-secondary" href="./apps/dartscorer/privacy/">Privacy</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>How this site is organized</h2>
+            <div class="meta">
+              <div>
+                <strong>Reusable URL shape</strong>
+                <p class="mono">/apps/&lt;app-slug&gt;/support/</p>
+              </div>
+              <div>
+                <strong>Shared styling</strong>
+                <p>All apps reuse the same plain HTML/CSS shell for easier maintenance.</p>
+              </div>
+              <div>
+                <strong>Fast to extend</strong>
+                <p>New apps can be added by copying one folder and replacing a small set of app-specific values.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p>Published by Stocki</p>
+        <nav aria-label="Footer">
+          <a href="./">Home</a>
+          <a href="./apps/dartscorer/support/">Support</a>
+          <a href="./apps/dartscorer/privacy/">Privacy</a>
+          <a href="./apps/dartscorer/legal/">Legal</a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
